@@ -1,0 +1,16 @@
+For a Mac:  
+	(1)  Install Xcode (app store)
+	(2)  Install Xcode tools (xcode-select --install)
+	(3)  compile using command    g++ *.cpp     in Terminal
+	(4)  run using command       ./a.out
+For Linux:
+	(1)  in the terminal, run:  sudo apt install build-essential
+	(2)  compile using command   g++ *.cpp     in the terminal
+	(3)  run using command      ./a.out
+For a PC:   
+	(1)  Install Visual Studio (https://visualstudio.microsoft.com/downloads/)
+	(2)  Install c++ tools (https://visualstudio.microsoft.com/vs/features/cplusplus/)
+	(3)  run code in Developer Command Prompt as administrator.  Compile using command   cl hello.cpp  
+	(4)  run generated executable
+
+If you know of and prefer some alternative for running c++ code, you are free to use it.  

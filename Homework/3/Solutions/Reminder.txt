@@ -1,0 +1,14 @@
+Hello Professor,
+We had a discussion during office hours (09/25/2020) for problem 2(b) about how matlab fails 
+to hold two or more loglog curves on the same plot. That's why we decided that i'd upload the 
+corrected graph with necessary changes been made. 
+
+this is causing me to turn the homework in late.
+
+upon your instruction, this is a friendly reminder so that the delayed submission doesn't lead to 
+a cut in marks.
+
+Thank you for your time and considerations.
+
+regards,
+showren

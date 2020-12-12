@@ -1,0 +1,89 @@
+This document modified from the cheatsheat at 
+https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh
+
+
+##############################################################################
+# DIRECTORY COMMANDS
+##############################################################################
+
+mkdir <dirname>	# makes a new directory
+cd			# changes to home
+cd <dirname>		# changes directory
+pwd			# tells you where you currently are
+rmdir			#removes a directory
+
+##############################################################################
+# SHORTCUTS
+##############################################################################
+
+tab		# autocompletes current text
+up arrow	# show last command, return will run it
+top		# lists all active processes and their ids
+kill -9 id	# kill a process
+CTRL+C  	# halts the current command
+	
+
+##############################################################################
+# FILE COMMANDS
+##############################################################################
+
+touch <filename>		# creates or updates (edit) your file
+ls				# lists your files in current directory,
+ls -la				# lists your files in 'long format'
+cp <filename> <dest>		# copies a file
+rm <filename>			# removes a file
+mv <filename> <dest>		# moves a file to destination, behavior will change based on 'dest' type 
+mv <filename> .		# move a file to your current working directory.  
+grep <pattern> <filenames>	# looks for the string in the files
+more <filename>		# shows the first part of a file (move with space and type q to quit)
+head <filename>		# outputs the first lines of file (default: 10 lines)
+tail <filename>		# outputs the last lines of file 
+du -h <filename>		# lists the size of a file in KB/MB/GB
+
+##############################################################################
+# OS-SPECIFIC
+##############################################################################
+mac:  open <filename> 		#opens file using default application
+linux:  xdg-open <filename> 	#opens file using default application
+PC:  <filename>			#opens file using default application
+
+
+##############################################################################
+# Command line text editors
+##############################################################################
+NANO:  fewest features, the easiest to use.  This is the only command line editor I personally use.  
+
+nano test1.txt
+-type-
+Control+O to save, Control+X to quit
+
+
+
+The two common command line editors in use are emacs and vi (or vim).  
+These are feature-rich text editors, but have a steep learning curve.  
+https://en.wikipedia.org/wiki/Editor_war
+
+
+EMACS:  Many features, which require Control+[] to use.  
+search, page up, many others. Also has the ability to run code within emacs using a meta key.  
+
+emacs test2.txt
+-type-
+Control+x s to save, Control+x Control+c to quit
+
+
+VI:  Many features.  The two modes are command mode and insert mode.  
+You cannot edit text in command mode.  When you open vi, you are in command mode and cannot add text.  This can cause confusion.  
+
+vi test3.txt
+type i or a to enter insert mode
+-type-
+Esc to enter command mode
+:w to save, :q to quit
+
+
+An insult to emacs users:  vi advocates will describe Emacs as “a great operating system, lacking only a decent editor”.
+An insult to vi users:  some Emacs users joke that vi has two modes - "beep repeatedly" and "break everything".
+
+
+

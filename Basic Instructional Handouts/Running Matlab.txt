@@ -1,0 +1,6 @@
+For any platform:  
+	(1)  Go to https://www.mathworks.com/academia/tah-portal/university-of-houston-972711.html
+	(2)  Enter your UH ID and password
+	(3)  Create or log into your mathworks account.  
+	(4)  Download matlab2020a installer and run it.
+	(5)  in matlab, run the command 				hello
